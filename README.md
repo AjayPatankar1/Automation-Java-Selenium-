@@ -61,7 +61,7 @@ Reusable utilites handle driver setup, configuration, and screenshots.
 
 # How To Run The tests
 Clone the repository
-git clone https://github.com/AjayPatankar1/Automation-Java-Selenium
+git clone https://github.com/AjayPatankar1/Automation-Java-Selenium-
 Navigate to project folder
 cd Automation-Java-Selenium
 Run tests using Maven
