@@ -5,10 +5,10 @@ This projects shows practical automation skills including UI automation , framew
 
 # Technology Stack
 
-Java
-Selenium WebDriver
-TestNG
-Maven
+Java,
+Selenium WebDriver,
+TestNG,
+Maven,
 Page Object Model (POM)
 
 # Project Objective
