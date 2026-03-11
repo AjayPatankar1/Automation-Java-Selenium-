@@ -59,5 +59,23 @@ Page classes contain element locators and page actions
 Test classes contain actual test scenarios.
 Reusable utilites handle driver setup, configuration, and screenshots.
 
+# How To Run The tests
+Clone the repository 
+git clone https://github.com/yourusername/Automation-Java-Selenium.git
+Navigate to project folder
+cd Automation-Java-Selenium
+Run tests using Maven 
+mvn clean test
 
+# Key Learning Outcomes
+Selenium WebDriver Automation 
+TestNG Automation
+Page Object Model design 
+Automation framework structure
+Practical UI automation scenarios
 
+# Future Improvements
+Add API tesing
+Intergrate CI/CD pipeline
+Add reporting (Extent Report)
+Add cross-browser execution
