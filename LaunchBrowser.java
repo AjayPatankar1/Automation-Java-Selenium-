@@ -12,7 +12,7 @@ public class launchbrowser {
 	 driver.get("https://www.flipkart.com/");
 	 
 	 System.out.println("Browser launched");
-		
+		driver.quit();
 		
 	}
 
