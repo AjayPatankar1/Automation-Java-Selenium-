@@ -1,0 +1,34 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FlipkartSearchTest {
+
+    public static void main(String[] args) {
+
+        // Launch browser
+        WebDriver driver = new ChromeDriver();
+
+        // Navigate to Flipkart
+        driver.get("https://www.flipkart.com");
+
+        // Close login popup
+        driver.findElement(By.xpath("//button[contains(text(),'✕')]")).click();
+
+        // Locate search box
+        WebElement searchBox = driver.findElement(By.name("q"));
+
+        // Enter product name
+        searchBox.sendKeys("iphone");
+
+        // Submit search
+        searchBox.submit();
+
+        // Print message
+        System.out.println("Product search executed");
+
+        // Close browser
+        driver.quit();
+    }
+}
