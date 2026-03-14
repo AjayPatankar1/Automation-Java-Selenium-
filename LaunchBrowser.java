@@ -9,7 +9,7 @@ public class launchbrowser {
 			// TODO Auto-generated method stub
 		
 	WebDriver driver = new ChromeDriver();
-	 driver.get("https://www.flipkart.com/");
+	 driver.get("https://www.google.com/");
 	 
 	 System.out.println("Browser launched");
 		driver.quit();
