@@ -1,0 +1,27 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FlipkartCartTest {
+
+    public static void main(String[] args) {
+
+        // Launch Chrome browser
+        WebDriver driver = new ChromeDriver();
+
+        // Navigate to Flipkart
+        driver.get("https://www.flipkart.com");
+
+        // Close login popup
+        driver.findElement(By.xpath("//button[contains(text(),'✕')]")).click();
+
+        // Click cart icon
+        driver.findElement(By.xpath("//a[contains(text(),'Cart')]")).click();
+
+        // Confirmation
+        System.out.println("Cart page opened");
+
+        // Close browser
+        driver.quit();
+    }
+}
